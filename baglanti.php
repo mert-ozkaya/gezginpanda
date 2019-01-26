@@ -2,7 +2,7 @@
 
 $sunucu="sunucuadres";
 $kullanici="kullanici";
-$parola="parolaSananededim$998";
+$parola="parola";
 $veritabani="gezginpanda";
 $baglanti=@mysqli_connect($sunucu,$kullanici,$parola) or die("Veritabanı sunucusuna bağlanılamadı");
 mysqli_query($baglanti,"SET NAMES 'utf8'");
